@@ -82,7 +82,7 @@ int main()
     // mas na verdade, é o valor de endereço de memória onde a variavel "valor" está alocada
     funcao->imprimirEndereco(valorPtr);
 
-    // O valor desreferenciado também precisamos realizar o mesmo processo anterior;
+    // O valor desreferenciado também precisamos realizar o mesmo processo anterior
     // irei utilizar as mesmas variaves para comparação
     funcao->imprimirValor(valorPtr);
 
